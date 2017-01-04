@@ -69,7 +69,7 @@ public enum State {
 void loadJSON() {
   // something with loadJSONObject to load the initial JSON file
   masterJSON = loadJSONObject("test.json");
-  //masterJSON = loadJSONObject("https://api.instagram.com/v1/users/self/media/recent/?access_token=4063654395.4dc6e57.9fede81059df4629a4520ba492bcc0aa");
+  //masterJSON = loadJSONObject("https://api.instagram.com/v1/users/self/media/recent/?access_token=YOUR_ACCESS_TOKEN_HERE");
   // something with loadJSONArray to set the postJList
   //print(masterJSON);
   postJList = masterJSON.getJSONArray("data");
